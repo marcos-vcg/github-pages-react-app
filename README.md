@@ -29,7 +29,22 @@ Criar uma aplicação React e fazer o deploy no GitHub para hospedar e rodar no 
 
 
 
-## Passo a Passo - Simplificado
+## Uso Padrão
+
+\* **OBS:** *Configurar antes de usar*
+
+* Para fazer o deploy das alterações salvas na branch `main` para a branch `gh-pages`, basta rodar:
+
+    ```shell 
+    $ npm run deploy
+    ```
+  > OBS: Não precisa fazer `commit` e `push`.
+
+&nbsp;
+
+
+
+## Configuração - Simplificada
 
 > \* **OBS:** *Para apps já existentes criados com* `create-react-app`
 
@@ -78,7 +93,7 @@ $ npm run deploy
 
 
 
-## Passo a Passo - Completo e Explicado
+## Configuração - Completa e Explicada
 
 ### 1. Criar um repositório **VAZIO** no GitHub
 
